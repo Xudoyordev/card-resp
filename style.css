@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+}
+
+.container .section {
+  /* width: 900px; */
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.container .section .content {
+}
+
+.container .section .content .content-title {
+  color: rgb(35, 241, 241);
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.container .section .content .content-paragraph {
+  color: rgb(211, 247, 11);
+  font-size: 18px;
+  font-weight: 900;
+  margin: 15px 0;
+}
+
+.container .section .content .content-text {
+  color: rgb(163, 163, 163);
+  font-size: 16px;
+  font-weight: light;
+}
+
+.container .section .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 260px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.container .section .box .card {
+  background-color: rgb(5, 190, 160);
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  padding: 40px 15px;
+}
+
+.container .section .box .card .card-title {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.container .section .box .card .card-price {
+  color: #d3d3d3;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container .section .box .card .card-price .price {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.container .section .box .card .card-text {
+  color: #d3d3d3;
+  font-size: 16px;
+  font-size: 500;
+}
+
+.container .section .box .card .btn {
+  width: 60%;
+  height: 40px;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  background-color: rgb(182, 236, 74);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.container .section .box .card:nth-child(2) {
+  background-color: rgb(6, 255, 213);
+}
+
+.container .section .box .card:nth-child(2) .card-title {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.container .section .box .card:nth-child(2) .text {
+  width: 190px;
+  color: #f5f3f3;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 10px;
+}
+
+@media (min-width: 0) and (max-width: 600.9px) {
+  .container .section {
+    padding: 0;
+    width: 100%;
+  }
+
+  .container .section .content{
+    padding: 15px;
+  }
+
+  .container .section .box {
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .container .section .box .card {
+    width: 100%;
+  }
+}
